@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(./a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+header nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav .links {
+    display: flex;
+    gap: 20px;
+}
+
+header nav .right_nav {
+    display: flex;
+    gap: 20px;
+}
+
+header .header_body {
+    padding-top: 300px;
+    padding-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header .header_body h3,
+main section h3 {
+    color: white;
+    font-size: 20px;
+}
+
+header .header_body h1,
+main section h1 {
+    font-size: 50px;
+    color: white;
+    margin: 20px 0;
+}
+
+header .header_body button,
+main section button {
+    padding: 15px 35px;
+    background-color: rgba(0, 255, 255, 0);
+    border: 2px solid white;
+    color: white;
+}
+
+header .header_body button:hover,
+main section button:hover {
+    background-color: white;
+    transition: 1s;
+    color: black;
+    cursor: pointer;
+}
+
+main section {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-left: 100px;
+    padding-top: 300px;
+}
+
+main .starlink {
+    background-image: url("./image.png");
+}
+
+main .urol-126 {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_76_112624_DSC_8978_desktop_4497307c1c.jpg");
+}
+
+main .human {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Eva_Suit_Desktop_alternate_1cf9bae18e.jpg");
+}
+
+main .ohrgisi {
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/make_life_multiplanetary_desktop_3fa7cff73c.jpg");
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    border-color: black;
+    font-size: 12px;
+    padding: 40px 0;
+}
